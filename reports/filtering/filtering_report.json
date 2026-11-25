@@ -1,0 +1,31 @@
+{
+  "source": "cleaned_dataset",
+  "output": "filtered_dataset",
+  "removed_images": [],
+  "removed_count": 0,
+  "kept_counts_by_split": {
+    "train": 1975,
+    "valid": 420,
+    "test": 189
+  },
+  "class_instance_counts_before": {
+    "1": 3350,
+    "0": 1054,
+    "3": 504,
+    "2": 555
+  },
+  "class_instance_counts_after": {
+    "1": 3350,
+    "0": 1054,
+    "3": 504,
+    "2": 555
+  },
+  "class_names_preserved": [
+    "Bottle",
+    "Detached_Cap",
+    "With_Cap",
+    "Without_Cap"
+  ],
+  "original_dataset_modified": false,
+  "cleaned_dataset_modified": false
+}

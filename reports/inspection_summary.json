@@ -1,0 +1,70 @@
+{
+    "total_images": 2584,
+    "total_annotations": 5463,
+    "classes": [
+        "Bottle",
+        "Detached_Cap",
+        "With_Cap",
+        "Without_Cap"
+    ],
+    "global_class_counts": {
+        "Detached_Cap": 3350,
+        "Bottle": 1054,
+        "Without_Cap": 504,
+        "With_Cap": 555
+    },
+    "splits": {
+        "train": {
+            "images": 1811,
+            "label_files": 1811,
+            "corrupted_images": 0,
+            "missing_labels": 0,
+            "orphan_labels": 0,
+            "empty_labels": 0,
+            "bbox_annotations": 3733,
+            "polygon_annotations": 117,
+            "invalid_annotations": 0,
+            "class_counts": {
+                "Detached_Cap": 2330,
+                "Bottle": 762,
+                "Without_Cap": 368,
+                "With_Cap": 390
+            }
+        },
+        "valid": {
+            "images": 518,
+            "label_files": 518,
+            "corrupted_images": 0,
+            "missing_labels": 0,
+            "orphan_labels": 0,
+            "empty_labels": 0,
+            "bbox_annotations": 1051,
+            "polygon_annotations": 40,
+            "invalid_annotations": 0,
+            "class_counts": {
+                "Detached_Cap": 685,
+                "Bottle": 199,
+                "Without_Cap": 94,
+                "With_Cap": 113
+            }
+        },
+        "test": {
+            "images": 255,
+            "label_files": 255,
+            "corrupted_images": 0,
+            "missing_labels": 0,
+            "orphan_labels": 0,
+            "empty_labels": 0,
+            "bbox_annotations": 504,
+            "polygon_annotations": 18,
+            "invalid_annotations": 0,
+            "class_counts": {
+                "Detached_Cap": 335,
+                "Bottle": 93,
+                "Without_Cap": 42,
+                "With_Cap": 52
+            }
+        }
+    },
+    "total_issues": 0
+}
